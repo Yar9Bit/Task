@@ -6,7 +6,7 @@ class Data:
         self.date_time = datetime(day=day, year=year, month=month, hour=hour, minute=minute, second=second)
 
 
-class Result(Data):
+class Result:
     @staticmethod
     def offset():
         input_sample1 = input(
