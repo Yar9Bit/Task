@@ -53,6 +53,8 @@ def copy_result():
         copy = pyperclip.copy(result())
         label['text'] = 'Данные скопированы'
         return copy
+    else:
+        label['text'] = 'Нет данных'
 
 
 frame_button = ttk.Frame(root)
