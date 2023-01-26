@@ -39,7 +39,7 @@ def cbox_item_select2(event):
 
 def result():
     try:
-        res = cbox_item_select2('') - cbox_item_select1('')
+        res = cbox_item_select1('') - cbox_item_select2('')
         label['text'] = round(res.total_seconds())
     except ValueError:
         msg = 'Не выбраны значения'
