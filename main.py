@@ -23,7 +23,7 @@ class Result:
 
 
 def run():
-    return print(abs(round(Result.offset().total_seconds()) ))
+    return print(round(Result.offset().total_seconds()))
 
 
 if __name__ == '__main__':
